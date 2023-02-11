@@ -1,0 +1,10 @@
+n=int(input("enter number:"))
+i=s=j=0
+while(i<=n):
+    if i%2==0:
+        s=s+i
+    else:
+       j=j+i 
+    i=i+1
+print("sum of even=",s)
+print("sum of odd=",j)
